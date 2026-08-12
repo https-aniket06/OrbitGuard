@@ -1,11 +1,17 @@
 # OrbitGuard
 
-**Satellite Conjunction & Collision Risk Dashboard**
-Built for SUPERNOVA: Beyond the Cosmos by Team The Bit Busters (DRIEMS University)
+**Real-Time Satellite Conjunction & Collision Risk Screening Dashboard**  
+*Built for SUPERNOVA: Beyond the Cosmos by Team The Bit Busters (DRIEMS University)*
 
-OrbitGuard pulls live orbital data, propagates every tracked object forward
-in time, flags any pair of objects on a collision course, and shows the
-results as a ranked, live dashboard — no orbital-mechanics degree required.
+OrbitGuard is a modern space-safety dashboard that pulls live orbital data, propagates satellite trajectories forward in time, screens for close-approach events, and ranks collision risks in an intuitive, interactive UI.
+
+### Key Features
+- **SGP4 Orbital Propagation:** Propagates orbital paths forward in time using standard SGP4 models.
+- **Precision Conjunction Screening:** Analyzes closest-approach distances over forecast windows.
+- **Docking Proximity Filtering:** Automatically filters out near-zero (<0.5 km) approaches (such as docked ISS/Tiangong modules) to eliminate false-positive events.
+- **Cross-Group Threat Screening:** Supports screening the space station complex against independent debris objects.
+- **Composite Risk Scoring:** Blends miss distance and relative velocity to produce an actionable 0-100 risk index.
+- **3D Orbit Visualization:** Visually represents satellite orbits and threat points interactively.
 
 ---
 
